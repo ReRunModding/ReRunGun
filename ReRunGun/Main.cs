@@ -24,13 +24,14 @@ namespace ReRunGun
 			GameObject player = GameObject.Find("Player");
 			if (player != null)
 			{
-				if (gunActive)
+				if (gunActive && player.GetComponent<PlayerPowers>().gun != true)
 				{
-					player.GetComponent<PlayerPowers>().gun = true;
+					player.GetComponent<PlayerPowers>().Gun();
 				}
-				else
+				else if(!gunActive && player.GetComponent<PlayerPowers>().gun == true)
 				{
 					player.GetComponent<PlayerPowers>().gun = false;
+					GameObject.Find("Revolver").SetActive(false);
 				}
 			}
 		}

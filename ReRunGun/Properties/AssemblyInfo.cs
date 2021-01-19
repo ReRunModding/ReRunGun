@@ -13,7 +13,7 @@ using MelonLoader;
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
-[assembly: MelonInfo(typeof(ReRunGun.Main), "ReRunGun", "1.0.0", "Mandar1jn")]
+[assembly: MelonInfo(typeof(ReRunGun.Main), "ReRunGun", "1.1.0", "Mandar1jn")]
 [assembly: MelonGame("Dani", "RERUN")]
 
 // Setting ComVisible to false makes the types in this assembly not visible
@@ -34,5 +34,5 @@ using MelonLoader;
 // You can specify all the values or you can default the Build and Revision Numbers
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("1.1.0.0")]
+[assembly: AssemblyFileVersion("1.1.0.0")]
